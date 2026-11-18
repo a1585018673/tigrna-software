@@ -1,0 +1,3 @@
+id,tam5,target,tam3,sequence_20,predicted_efficiency_pct,prediction_interval_90_low_pct,prediction_interval_90_high_pct,score_0_100,nearest_training_guide,nearest_sequence_identity_pct,model_family,model_status,calibration_context,batch_rank_0_100
+example_1,G,GACATTGGAGGTACCCGT,A,GGACATTGGAGGTACCCGTA,29.225699655552983,4.392840032547052,54.05855927855892,100.0,CXCR-tig2,100.0,svr_rbf,experimental,"293T, optimized 336-172 construct",100.0
+example_2,C,GGTGCACCTCAGGGACCG,C,CGGTGCACCTCAGGGACCGC,21.944467591975737,0.0,46.77732721498167,81.63265306122449,LAG3-tig4,100.0,svr_rbf,experimental,"293T, optimized 336-172 construct",50.0

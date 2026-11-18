@@ -1,0 +1,18 @@
+{
+  "mode": "293t",
+  "n_jobs": 1,
+  "timings_seconds": {
+    "preprocess": 3.084518224000931,
+    "293t_training": 69.89755817875266
+  },
+  "comparisons": {
+    "oof_predictions_293T.csv": {
+      "matches": true,
+      "max_absolute_difference": 0.0
+    },
+    "within_locus_ranking_293T.csv": {
+      "matches": true,
+      "max_absolute_difference": 0.0
+    }
+  }
+}

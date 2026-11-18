@@ -1,0 +1,21 @@
+{
+  "raw_workbook_sha256": "94ce0e7626a1c8f7925a1cf05bf66fbdd5a84971588324682961888e0cad2543",
+  "all_rows": 154,
+  "training_rows": 125,
+  "cell_lines": {
+    "293T": {
+      "all_rows": 123,
+      "labelled_rows": 98,
+      "labelled_locus_groups": 35,
+      "missing_optimized_labels": 25
+    },
+    "N2a": {
+      "all_rows": 31,
+      "labelled_rows": 27,
+      "labelled_locus_groups": 1,
+      "missing_optimized_labels": 4
+    }
+  },
+  "measurement_slots": 924,
+  "missing_labels_are_zero_imputed": false
+}

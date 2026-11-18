@@ -1,0 +1,7 @@
+{
+  "saved_125_row_oof_metrics_verified": true,
+  "selected_pooled_svr_refit_verified": true,
+  "maximum_training_prediction_difference_fraction": 0.0,
+  "full_four_family_nested_cv_rerun_in_this_bundle_check": false,
+  "reason": "CPU-only instance has a 0.5 CPU cgroup quota; original four-family OOF results are retained, not relabelled as a new rerun."
+}

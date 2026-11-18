@@ -1,0 +1,22 @@
+{
+  "clean_environment": true,
+  "dependency_install_resumed_after_network_stall": true,
+  "timings_seconds": {
+    "install_dependencies": {
+      "elapsed_seconds": 407.294327609241,
+      "exit_code": 0
+    },
+    "editable_install": {
+      "elapsed_seconds": 7.896749805659056,
+      "exit_code": 0
+    },
+    "unit_tests": {
+      "elapsed_seconds": 7.121607065200806,
+      "exit_code": 0
+    },
+    "demo": {
+      "elapsed_seconds": 14.684375941753387,
+      "exit_code": 0
+    }
+  }
+}

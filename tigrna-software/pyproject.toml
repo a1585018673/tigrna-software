@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tigrna-efficiency-model"
+version = "0.1.0"
+description = "Experimental sequence-only tigRNA efficiency ranking model"
+readme = "README.md"
+requires-python = ">=3.11"
+# Exact runtime dependencies are supplied separately in requirements.txt.
+
+[tool.setuptools.packages.find]
+where = ["src"]

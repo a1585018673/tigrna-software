@@ -1,0 +1,33 @@
+{
+  "model_version": "0.1.0",
+  "created_at_utc": "2026-08-19T01:56:16.054733+00:00",
+  "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+  "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "packages": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0",
+    "scikit_learn": "1.9.0",
+    "joblib": "1.5.3"
+  },
+  "source_workbook": "tigRNA效率和序列整理（更新）.xlsx",
+  "source_workbook_sha256": "94ce0e7626a1c8f7925a1cf05bf66fbdd5a84971588324682961888e0cad2543",
+  "n_training_samples": 125,
+  "n_locus_groups": 36,
+  "cell_line_counts": {
+    "293T": 98,
+    "N2a": 27
+  },
+  "label_min": 0.0,
+  "label_median": 0.134,
+  "label_mean": 0.1924733333333333,
+  "label_max": 0.7949999999999999,
+  "selected_family": "svr_rbf",
+  "selected_params": {
+    "model__C": 0.1,
+    "model__epsilon": 0.02,
+    "model__gamma": "scale"
+  },
+  "feature_version": "seq20-pos1-pos2-kmer123-scalars-v1",
+  "protein_sequence_role": "constant provenance metadata; not a predictive input"
+}

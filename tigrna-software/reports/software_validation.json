@@ -1,0 +1,42 @@
+{
+  "validation_stage": "reference_environment",
+  "python": "3.12.3",
+  "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "cpu_count_reported": 128,
+  "dataset_summary": {
+    "raw_workbook_sha256": "94ce0e7626a1c8f7925a1cf05bf66fbdd5a84971588324682961888e0cad2543",
+    "all_rows": 154,
+    "training_rows": 125,
+    "cell_lines": {
+      "293T": {
+        "all_rows": 123,
+        "labelled_rows": 98,
+        "labelled_locus_groups": 35,
+        "missing_optimized_labels": 25
+      },
+      "N2a": {
+        "all_rows": 31,
+        "labelled_rows": 27,
+        "labelled_locus_groups": 1,
+        "missing_optimized_labels": 4
+      }
+    },
+    "measurement_slots": 924,
+    "missing_labels_are_zero_imputed": false
+  },
+  "checks": {
+    "unit_tests": {
+      "elapsed_seconds": 5.307474065572023,
+      "exit_code": 0
+    },
+    "demo": {
+      "elapsed_seconds": 3.7719861827790737,
+      "exit_code": 0
+    },
+    "historical_composite": {
+      "elapsed_seconds": 1.0317254476249218,
+      "exit_code": 0
+    }
+  },
+  "fresh_environment_installation_performed": false
+}

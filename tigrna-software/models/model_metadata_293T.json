@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-08-19T02:03:40.495518+00:00",
+  "model_status": "experimental",
+  "calibration_context": "293T, optimized 336-172 construct",
+  "n_training_samples": 98,
+  "n_locus_groups": 35,
+  "feature_version": "seq20-pos1-pos2-kmer123-scalars-v1",
+  "final_params": {
+    "model__C": 0.1,
+    "model__epsilon": 0.02,
+    "model__gamma": "scale"
+  },
+  "primary_use": "ranking multiple candidate tigRNAs for the same locus",
+  "absolute_efficiency_use": "rough reference only; interval is wide"
+}
